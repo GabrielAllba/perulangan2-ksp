@@ -1,0 +1,16 @@
+Buatlah sebuah program dimana didalamnya terdapat 3 buah sub menu, berikut penjelasanya:
+
+Menu [1] (Input Data)
+	Menu [1] tidak bisa diakses jika sudah menginput data kecuali data sebelumnya sudah dihapus
+
+	Menu yang diinputkan adalah nama, npm, angkatan, IPK
+	NB : nama, npm, angkatan,IPK tidak boleh kosong
+
+Menu [2] (Tampil Data)
+	Menu [2] Tidak akan bisa diakses jika belum menginputkan data pada menu [1]
+
+	Menu akan menampilkan nama, npm, angkatan, IPK
+
+Menu [3] (Hapus Data/Reset)
+	Menu ini akan menghapus/mereset data yang sudah diinputkan, sehingga setelah menu [3]
+	dijalankan maka dapat mengakses menu [1] kembali
