@@ -1,1 +1,1 @@
-# perulangan2-ksp
+# perulangan-KSP
