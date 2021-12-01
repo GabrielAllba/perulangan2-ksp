@@ -9,12 +9,15 @@ int main(int argc, char *argv[]){
 	1	0 0 X 0 0
 	2	0 X X X 0
 	3	X X X X X
+	4   0 X X X 0 
+	5   0 0 X 0 0 
 	*/
+	printf("%c", argc);
 	int input;
 
 	printf("input tinggi diamond: ");scanf("%d", &input);
 	if(input % 2 == 0){
-		printf("tinggi diamon harus ganjil\n");
+		printf("tinggi diamond harus ganjil\n");
 		return 0;
 	}
 	for(int i = 1; i <= input; i++){
